@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maintext, .placeheading, i {
+  color: whitesmoke;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  top: 0;
+}
+nav .logomain {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+nav .logomain .logo {
+  background-image: url(./images/Shree-Khatudham-Baba-Khatu-Shyam-HD-Download-Wallpaper.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+}
+nav .logomain .logo span {
+  font-weight: 100;
+  top: 50%;
+}
+nav .logomain .navcontact {
+  justify-content: space-evenly;
+  display: inline-block;
+  align-items: center;
+}
+nav .logomain .navcontact a {
+  text-decoration: none;
+  color: aliceblue;
+}
+nav .logomain .navcontact div {
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+nav .logomain .navcontact .cont {
+  box-shadow: 1px 1px 5px whitesmoke;
+  align-content: center;
+}
+nav .logomain .navcontact .cont a {
+  text-decoration: none;
+  color: aliceblue;
+}
+nav .logomain .navcontact .cont a i {
+  margin: 5px;
+}
+nav .logomain .navcontact .cont:hover {
+  background-color: rgb(40, 117, 40);
+  transition: 0.5s all;
+  transform: scale(1.1);
+}
+nav .logomain .navcontact .fb i:hover {
+  color: rgb(40, 40, 197);
+  transform: scaleX(1.3);
+  transition: 0.3s all;
+}
+nav .logomain .navcontact .whatsapp a:hover > i {
+  color: rgb(33, 128, 33);
+  transition: 0.3s all;
+  transform: scale(1.3);
+}
+nav .logomain .navcontact .insta:hover > i {
+  color: rgb(117, 11, 117);
+  transform: scaleX(1.3);
+  transition: 0.3s all;
+}
+
+.maincont {
+  position: relative;
+  z-index: 1;
+}
+.maincont h3 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+}
+.maincont .trees {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carcont {
+  font-family: "Dancing Script", cursive;
+}
+.carcont img {
+  box-shadow: 1px 1px 3px rgba(106, 116, 107, 0.65);
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: 100%;
+}
+
+.secmain {
+  position: relative;
+}
+.secmain .forest {
+  width: 100%;
+}
+.secmain .container {
+  max-width: 100%;
+}
+
+.maintext {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 4vw;
+  width: 60%;
+  margin: auto;
+  z-index: 1;
+}
+
+.img {
+  position: relative;
+  aspect-ratio: 1/1;
+}
+.img h6 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  /* margin: auto; */
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-size: 1.2vw;
+}
+.img img {
+  height: -webkit-fill-available;
+  aspect-ratio: 1/1;
+}
+
+.navcolor {
+  background-color: rgba(30, 30, 30, 0.91);
+  transition: 0.5 all;
+}
+
+.thirdmain {
+  position: relative;
+}
+.thirdmain .hawamahal, .thirdmain .maharaj, .thirdmain .shadow {
+  position: absolute;
+  top: 0%;
+}
+.thirdmain .hawamahal {
+  width: 70vw;
+}
+.thirdmain .maharaj {
+  width: 30vw;
+  right: 0;
+  top: 15%;
+}
+.thirdmain .shadow {
+  bottom: 0% !important;
+}
+.thirdmain .shadow img {
+  height: 100%;
+}
+
+footer {
+  background-color: black;
+}
+
+.msgdiv {
+  margin-top: 2rem;
+}
+
+iframe {
+  width: 100%;
+}
+
+.main-i13 {
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 12%;
+}
+
+.contact-us-dv {
+  display: flex;
+  /* position: absolute; */
+  /* top: 19rem;
+  left: 43rem; */
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact-us-dv h1 {
+  font-size: 44px;
+  font-weight: 100;
+  z-index: 1;
+}
+
+.contact-us-dv h2 {
+  font-size: 40px;
+  margin: 10px 0px;
+  color: red;
+  font-weight: 100;
+  z-index: 1;
+  font-family: "Raleway", sans-serif;
+}
+
+.form {
+  display: flex;
+  color: whitesmoke;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-i13 input,
+textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  margin: 12px 0;
+  outline: none;
+  padding: 15px 0;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-i13 textarea {
+  max-width: 100%;
+  max-height: 125px;
+  min-height: 125px;
+  min-width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-i13 input::-moz-placeholder, textarea::-moz-placeholder {
+  font-size: 16px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-i13 input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-form h1 {
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-i13 h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 5px 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-form p {
+  font-size: 16px;
+  margin: 20px 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.form-text p {
+  font-size: 16px;
+  margin-bottom: 38px;
+  font-family: "Raleway", sans-serif;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  border: 2px solid #c0b4b4;
+  padding: 20px;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon a {
+  color: whitesmoke;
+  margin-right: 50px;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.icon a:hover {
+  rotate: 15deg;
+  transform: scale(1.1);
+  transition: 0.3s all;
+}
+
+.btn-yl2 {
+  margin: 50px 0;
+  font-size: 20px;
+  display: block;
+  background-color: rgba(255, 109, 0, 0.8196078431);
+  height: 39px;
+  width: 11rem;
+  border-radius: 35px;
+  border: none;
+  box-shadow: 0px 2px 6px #080808;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+footer {
+  position: static;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #000105;
+  bottom: 0;
+}
+
+.form-text {
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: whitesmoke;
+}
+
+footer h5 {
+  padding: 22px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+
+.whatsapplogo {
+  right: 3vw;
+  position: fixed;
+  bottom: 1rem;
+  animation: bounce 2s infinite;
+}
+.whatsapplogo .spancl {
+  background-color: #2fae20;
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: 600;
+  border: 5px solid whitesmoke;
+  border-radius: 35px;
+  display: none;
+}
+.whatsapplogo .spancl2 {
+  display: inline-block;
+  transition: all 0.5s;
+}
+.whatsapplogo .whatsapp {
+  width: 6vw;
+  z-index: 100;
+}
+
+@media screen and (max-width: 1265px) {
+  .main-i13 {
+    top: 6%;
+  }
+  .main-form p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  .form-text p {
+    margin-bottom: 5px;
+  }
+  .main-i13 input, textarea {
+    margin: 0;
+  }
+  .btn-yl2 {
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 1265px) and (max-width: 1035px) {
+  .contact-us-dv {
+    margin-bottom: 0rem;
+  }
+  .main-i13 {
+    top: 2%;
+  }
+}
+@media screen and (max-width: 1265px) and (max-width: 912px) {
+  .form {
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .main-i13 {
+    position: relative;
+  }
+  .thirdmain {
+    background-image: url(./images/372d68da7ffa9d12ab53a49eec29b113.png);
+  }
+  .thirdmain .rmv {
+    display: none;
+  }
+  .logomain {
+    justify-content: center !important;
+  }
+  .icon {
+    justify-content: center;
+  }
+  .icon a {
+    /* margin-right: 50px; */
+    margin: 0 20px;
+  }
+}
+@media screen and (max-width: 1265px) and (max-width: 620px) {
+  .maincont {
+    height: 100vh;
+  }
+  .maincont img {
+    height: 100vh;
+  }
+  footer {
+    padding: 10px 0;
+    flex-direction: column;
+  }
+  footer .footerright {
+    margin: 3px;
+  }
+  .whatsapplogo .whatsapp {
+    width: 15vw;
+    z-index: 100;
+  }
+  nav {
+    position: absolute;
+  }
+  nav .logomain .logo {
+    font-weight: bolder;
+    font-size: 12vw;
+    background-image: url();
+    background-repeat: repeat;
+    -webkit-text-fill-color: white;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+  }
+  nav .logomain .logo span {
+    font-weight: bolder;
+  }
+  .maintext {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 7vw;
+    width: 100%;
+  }
+  .mt2 {
+    position: relative;
+    color: #0dcaf0;
+    font-family: "Dancing Script", cursive;
+    width: 70%;
+    font-size: calc(1.375rem + 1.5vw);
+    margin: 3rem auto !important;
+  }
+  .navcolor {
+    background-color: transparent;
+  }
+  .navcontact {
+    flex-direction: column;
+  }
+  .navcontact .navicons {
+    flex-direction: row;
+    font-size: 7vw;
+    justify-content: space-between;
+  }
+  nav .logomain .navcontact div {
+    font-size: 6vw;
+    padding: 10px 20px;
+  }
+  nav .logomain .navcontact .cont {
+    box-shadow: 1px 1px 5px rgb(24, 6, 6);
+    background-color: #f49321;
+  }
+  .hawamahal img {
+    height: 50vh;
+  }
+  .main-i13 h3 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .form {
+    width: 95%;
+    margin: auto;
+  }
+  .form-text p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1265px) {
+  [data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: 0s !important;
+  }
+  [data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 0s !important;
+  }
+  [data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: none !important;
+  }
+}/*# sourceMappingURL=index.css.map */

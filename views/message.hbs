@@ -1,0 +1,46 @@
+{{>header}}
+<h6 class="text-center {{message.class}}">{{message.text}}</h6>
+
+
+
+{{#if count }}
+
+
+<h3 class="text-center my-3 ">Total messages : {{count}}</h3>
+
+ <a onclick="return confirm('Do you really want to delete All Messages ?')" href="/deleteallmsgs" class="btn btn-primary">Delete All {{count}} Messages</a>
+  <a onclick="return confirm('Do you really want to Logout ?')" href="/logout" class="btn btn-danger">logout</a>
+<div class="row row-cols-1 row-cols-md-3 g-4 msgdiv">
+
+
+  {{#each data}}
+  <div class="card">
+  <div class="card-header">
+   Message : 
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{this.name}}</h5>
+    <h6 class="card-title"><a href="mailto:{{this.email}}">{{this.email}}</a></h6>
+
+    <p class="card-text ">{{this.message}}</p>
+  
+    <p class="card-text date">{{this.createdAt}}</p>
+ <a onclick="return confirm('Do you really want to delete?')" href="/deletemsg/{{this._id}}" class="btn btn-primary">Delete Message</a>
+  </div>
+</div>
+  {{/each}}
+
+
+
+</div>
+
+{{else}}
+<h3 class="text-center  text-danger my-3">No Messages Available</h3>
+<div class="container-fluid">
+
+ <a onclick="return confirm('Do you really want to Logout ?')" href="/logout" class="btn btn-danger">logout</a>
+</div>
+
+{{/if}}
+
+{{>adminfootersrc}}

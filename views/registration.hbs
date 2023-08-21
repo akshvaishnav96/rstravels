@@ -1,0 +1,35 @@
+{{>header}}
+<div class="container">
+  <h3 class="{{message.class}}">{{message.text}}</h3>
+    <h1>Signup</h1>
+ <form action="/riddhisiddhiregistration" method="post">   
+   <div class="form-group">
+          <label for="name">Enter Your Name <span class="text-danger">*</span></label>
+
+     <input type="text"
+       class="form-control" name="name" id="name">
+   </div>
+    <div class="form-group">
+     <label for="email">Enter Your Email <span class="text-danger">*</span></label>
+     <input type="text"
+       class="form-control" name="email" id="email">
+   </div>
+   <div class="form-group">
+     <label for="mobile">Mobile Number <span class="text-danger">*</span></label>
+     <input type="number"
+       class="form-control" name="mobile" id="mobile">
+   </div>
+   <div class="form-group">
+     <label for="password">Enter Password<span class="text-danger">*</span></label>
+     <input type="password"
+       class="form-control" name="password" id="password">
+   </div>
+   <div class="form-group">
+     <label for="cpassword">Confirm Password<span class="text-danger">*</span></label>
+     <input type="password"
+       class="form-control" name="cpassword" id="cpassword">
+   </div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+{{>footersrc}}
